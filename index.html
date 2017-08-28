@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spinner</title>
+        <style type="text/css">
+            .spin{
+                position: fixed;
+                top:0px;
+                bottom: 0px;
+                left:0px;
+                right:0px;
+                margin:auto;
+                height: 60px;
+                width: 60px;
+                border: 5px solid green;
+                border-radius: 50%;
+                border-top-color: black;
+                animation: vishnu 1s linear infinite;
+            }
+            @keyframes vishnu
+            {
+                0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="spin"></div>
+    </body>
+</html>
